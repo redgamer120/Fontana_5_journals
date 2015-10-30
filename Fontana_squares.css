@@ -1,0 +1,56 @@
+body {
+	background-color:BLACK;
+}
+.real_pokeball {
+	position:absolute;
+	height:200px;
+	width:200px;
+	right:50%;
+	top:35%;
+	background-color:RED;
+}
+
+.lower_box {
+	background-color:WHITE;
+	height: 100px;
+	right:0%;
+	top:50%;
+	position:absolute;
+	width: 200px;
+}
+
+.mid_box {
+	background-color:BLACK;
+	position:absolute;
+	height:50px;
+	width:50px;
+	right:40%;
+	top:40%;
+}
+
+.inner_box {
+	background-color:GRAY;
+	position:absolute;
+	height:25px;
+	width:25px;
+	right:45%;
+	top:45%;
+}
+
+.left_box {
+	background-color:GRAY;
+	position:absolute;
+        height:5px;
+        width:90px;
+        left:55%;
+        bottom:49%;
+}
+
+.right_box {
+	background-color:GRAY;
+	position:absolute;
+        height:5px;
+        width:86px;
+        right:57%;
+        top:49%;
+}
