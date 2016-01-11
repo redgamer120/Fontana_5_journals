@@ -1,0 +1,32 @@
+nav {
+    font-size: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 1700;
+    height: 100px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+section {
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    background-color: yellow;
+    font-size: 25px;
+    height: 500px;
+}
+
+footer {
+    position: absolute;
+    top: 63%;
+    right: 0%;
+    font-size: 25px;
+    background-color: red;
+}
+
+body {
+    background-color: black;
+}
