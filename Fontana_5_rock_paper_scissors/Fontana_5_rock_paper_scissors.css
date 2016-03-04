@@ -1,0 +1,123 @@
+body {
+    background-color: #7D151A;
+    color: white;
+}
+
+header {
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+}
+
+.refresh {
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #2E4172;
+    font-size: 20px;
+    color: #AA8439;
+}
+
+#result {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 150px;
+    height: 125px;
+    text-align: center;
+    background-color: #FFFA55;
+    color: #45076F;
+    font-size: 50px;
+}
+
+.result {
+    position: absolute;
+/*
+    top: 30%;
+    left: 45%;
+*/
+    right: 0%;
+    width: 150px;
+    height: 125px;
+    text-align: center;
+    background-color: #FFFA55;
+    color: #45076F;
+    font-size: 25px;
+}
+
+#Rock {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    background-color: #2B823A;
+    color: black;
+    width: 200px;
+    height: 200px;
+}
+
+.rock {
+    background-color: #2B823A;
+    color: black;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+}
+
+#Paper {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background-color: #2B823A;
+    color: black;
+    width: 200px;
+    height: 200px;
+}
+
+.paper {
+    background-color: #2B823A;
+    color: black;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+}
+
+#Scissors {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    background-color: #2B823A;
+    color: black;
+    width: 200px;
+    height: 200px;
+}
+
+.scissors {
+    background-color: #2B823A;
+    color: black;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+}
+
+footer {
+    position: absolute;
+    top: 90%;
+    width: 99%;
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 5px;
+}
+
+.computer {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 30px;
+    width: auto;
+    height: 50px;
+    text-align: center;
+}

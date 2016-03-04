@@ -1,0 +1,34 @@
+<html>
+<head>
+    <script src="Fontana_5_rock_paper_scissors.js"></script>
+    <link rel="stylesheet" href="Fontana_5_rock_paper_scissors.css">
+    <title>Rock, Scissors, and Rock Game</title>
+</head>
+<body>
+    <header>Thanks for playing this game.</header>
+    <section id="refresh">
+        <button class="refresh" onclick="reload()">Refresh</button>
+    </section>
+    <script>window.location.reload;</script>
+    </section>
+    <article id="Rock">
+    <button class="rock" onclick='choice("rock")'>Rock</button>
+    </article>
+    <article id="Paper">
+    <button class="paper" onclick='choice("paper")'>Paper</button>
+    </article>
+    <article id="Scissors">
+    <button class="scissors" onclick='choice("scissors")'>Scissors</button>
+    </article>
+    <section id="result">
+        <button class="result" onClick='compare(player, computerChoice)'>Go!</button>
+        <p id="resultP"></p>
+    </section>
+    <section class="computer">The computer will randomly pick rock, paper, or scissors.</section>
+    <footer>Created by: Redgamer120
+    <p>Link to youtube video: https://www.youtube.com/watch?v=UYxpX3N20qU </p>
+        <p>Link to wiki page: https://en.wikipedia.org/wiki/Rock-paper-scissors </p>
+        <p>Link to another computer opponent: www.nytimes.com/.../rock-paper-scissors.html </p>
+    </footer>
+</body>
+</html>
