@@ -1,3 +1,5 @@
+var wins =  0;
+var lost = 0;
 var lose_audio = new Audio('lose_sound.mp3');
 var win_audio = new Audio('win_sound.mp3');
 var tie_audio = new Audio('tie_sound.mp3');
@@ -24,32 +26,39 @@ var compare = function(choice1, choice2) {
     }
     else if (choice1 === "rock") {
         if (choice2 === "scissors") {
-            document.getElementById("result").innerHTML = "You Win!";
+            wins++;
+            document.getElementById("result").innerHTML = "You Win!<br>"+"Wins "+ wins +"<br>Lost "+lost;
             win_audio.play();
         }
         else {
-            document.getElementById("result").innerHTML = "You Lose!";
+            lost++;
+            document.getElementById("result").innerHTML = "You Lose!<br>"+"Wins "+ wins +"<br>Lost "+lost;
             lose_audio.play();
         }
     }
     else if (choice1 === "paper") {
         if (choice2 === "rock") {
-            document.getElementById("result").innerHTML = "You Win!";
+            wins++;
+            document.getElementById("result").innerHTML = "You Win!<br>"+"Wins "+ wins +"<br>Lost "+lost;
             win_audio.play();
         }
         else if (choice2 ==="scissors") {
-            document.getElementById("result").innerHTML = "You Lose!";
+            lost++;
+            document.getElementById("result").innerHTML = "You Lose!<br>"+"Wins "+ wins +"<br>Lost "+lost;
             lose_audio.play();
         }
     }
     else if (choice1 === "scissors") {
         if (choice2 === "rock") {
-            document.getElementById("result").innerHTML = "You Lose!";
+            lost++;
+            document.getElementById("result").innerHTML = "You Lose!<br>"+"Wins "+ wins +"<br>Lost "+lost;
             lose_audio.play();
         }
         else if (choice2 === "paper") {
-            document.getElementById("result").innerHTML = "You Win!";
+            wins++;
+            document.getElementById("result").innerHTML = "You Win!<br>"+"Wins "+ wins +"<br>Lost "+lost;
             win_audio.play();
+            
         }
     }
     else {
