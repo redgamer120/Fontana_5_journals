@@ -1,0 +1,49 @@
+html {
+    background-color: #519331;
+    height: 100%;
+    width: 100%;
+}
+header {
+    height: 100px;
+    font-size: 80px;
+    background-color: #7AB85C;
+    text-align: center;
+    width: 100%;
+}
+#Clock {
+    position: absolute;
+    top: 20%;
+    left: 44.3%;
+    background-color: #377D16;
+    border: 0px;
+    font-size: 50px;
+}
+#Gears {
+    position: absolute;
+    top: 35%;
+    left: 44%;
+    background-color: #377D16;
+    border: 0px;
+    font-size: 50px;
+}
+#Microbes {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    background-color: #377D16;
+    border: 0px;
+    font-size: 50px;
+}
+#Pendulum {
+    position: absolute;
+    top: 65%;
+    left: 41.5%;
+    background-color: #377D16;
+    border: 0px;
+    font-size: 50px;
+}
+.myCanvas {
+    position: absolute;
+    top: 20%;
+    left: 10%:
+}
