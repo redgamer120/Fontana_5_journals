@@ -78,7 +78,7 @@ Gear.prototype.draw = function(context) {
     // draw gear hole
     context.beginPath();
     context.arc(0, 0, this.holeRadius, 0, 2 * Math.PI, false);
-    context.fillStyle = "white";
+    context.fillStyle = "#519331";
     context.fill();
     context.strokeStyle = this.darkColor;
     context.stroke();
@@ -102,8 +102,8 @@ window.onload = function(){
         numTeeth: 24,
         theta: 0,
         thetaSpeed: 1 /1000,
-        lightColor: "#B1CCFF",
-        darkColor: "#3959CC",
+        lightColor: "#324E84",
+        darkColor: "#051940",
         clockwise: false
     }));
     
@@ -117,8 +117,8 @@ window.onload = function(){
         numTeeth: 12,
         theta: 0.14,
         thetaSpeed: 2 / 1000,
-        lightColor: "#FF9E9D",
-        darkColor: "#AD0825",
+        lightColor: "#8C0417",
+        darkColor: "#47000A",
         clockwise: true
     }));
     
@@ -132,8 +132,8 @@ window.onload = function(){
         numTeeth: 6,
         theta: 0.35,
         thetaSpeed: 4/ 1000,
-        lightColor: "#FFDD87",
-        darkColor: "#D25D00",
+        lightColor: "#B7B7B7",
+        darkColor: "#8C8C8C",
         clockwise: false
     }));
 

@@ -47,9 +47,9 @@ window.onload = function() {
         context.arc(endPointX, endPointY, 40, 0, 2 * Math.PI, false);
         var grd = context.createLinearGradient(endPointX - 50, endPointY - 50, endPointX + 50, endPointY + 50);
         
-        grd.addColorStop(0, "#444");
-        grd.addColorStop(0.5, "white");
-        grd.addColorStop(1, "#444");
+        grd.addColorStop(0, "#2A4F6E");
+        grd.addColorStop(0.5, "#2A4F6E");
+        grd.addColorStop(1, "#2A4F6E");
         context.fillStyle = grd;
         context.fill();
     });

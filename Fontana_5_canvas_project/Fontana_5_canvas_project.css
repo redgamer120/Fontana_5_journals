@@ -2,6 +2,7 @@ html {
     background-color: #519331;
     height: 100%;
     width: 100%;
+    font-family: fantasy;
 }
 header {
     height: 100px;
@@ -15,35 +16,51 @@ header {
     top: 20%;
     left: 44.3%;
     background-color: #377D16;
-    border: 0px;
     font-size: 50px;
+    border: 100px;
+    border-radius: 100px;
 }
 #Gears {
     position: absolute;
     top: 35%;
     left: 44%;
     background-color: #377D16;
-    border: 0px;
     font-size: 50px;
+    border: 100px;
+    border-radius: 100px;
 }
 #Microbes {
     position: absolute;
     top: 50%;
     left: 42%;
     background-color: #377D16;
-    border: 0px;
     font-size: 50px;
+    border: 100px;
+    border-radius: 100px;
 }
 #Pendulum {
     position: absolute;
     top: 65%;
     left: 41.5%;
     background-color: #377D16;
-    border: 0px;
     font-size: 50px;
+    border: 100px;
+    border-radius: 100px;
 }
 .myCanvas {
     position: absolute;
     top: 20%;
     left: 10%:
+}
+#explanation {
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    left: 64%;
+    border: 50px;
+    border-radius: 10px;
+    background-color: #377D16;
+    font-size: 20px;
+    text-align: center;
 }
